@@ -1,0 +1,9 @@
+elif weapon == 5:
+	mawaza = ["What are you going to with it choke him? Zelda will tear the hose iin half!!",
+		"Oh so you want to whip him with it??? You have a death☠ wish!!!",
+		"Maybe you wanna water him down? but that'll make him only stronger.... because plants need water!!!",
+		"MAybe you wanna tied him down, from the leg or something, that could work...provided you have enough strength to hold him,
+you're taking chances, A - for Effort"]
+	print(random.choice(mawaza))
+	halt = input("> ")
+	return "dead"
